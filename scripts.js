@@ -11,3 +11,9 @@ if (number > 100) {
 } else {
     $('.e').text("just a regular number, please.");
 }
+
+if(word === 'cool') {
+    $('.s').text('Power of DOM');
+} else {
+    $('.w').text('Power of DOM');
+}
